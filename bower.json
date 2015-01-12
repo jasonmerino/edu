@@ -1,0 +1,24 @@
+{
+  "name": "EDU",
+  "version": "1.0.0",
+  "authors": [
+    "Jason Merino <jasonmerino@gmail.com>"
+  ],
+  "description": "A place for learning.",
+  "main": "index.js",
+  "keywords": [
+    "education"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ember": "~1.9.1"
+  }
+}

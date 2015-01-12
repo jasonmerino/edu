@@ -1,0 +1,19 @@
+<html>
+<head>
+	<title>EDU</title>
+</head>
+<body>
+
+	<script type="text/x-handlebars" data-template-name="colors">
+		{{#each}}
+		<div {{bind-attr class="code"}}>
+			<div>{{text}}</div>
+		</div>
+		{{/each}}
+	</script>
+	<script src="bower_components/jquery/dist/jquery.js"></script>
+	<script src="bower_components/handlebars/handlebars.js"></script>
+	<script src="bower_components/ember/ember.js"></script>
+	<script src="js/app.js"></script>
+</body>
+</html>
